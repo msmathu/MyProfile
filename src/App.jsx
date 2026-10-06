@@ -72,7 +72,7 @@ export default function App() {
           </div>
           <div className="hero-photo-wrap">
             <div className="hero-photo-ring" />
-            <img className="hero-photo" src="/photo.png" alt={profile.name} />
+            <img className="hero-photo" src={`${import.meta.env.BASE_URL}photo.png`} alt={profile.name} />
           </div>
         </div>
       </section>
