@@ -52,7 +52,7 @@ export default function App() {
                 <Mail size={15} /> Get In Touch
               </a>
               <a className="btn-outline" href={profile.github} target="_blank" rel="noreferrer">
-                <Github size={15} /> GitHub
+                <GithubIcon size={15} /> GitHub
               </a>
             </div>
             <div className="hero-stats">
@@ -116,7 +116,7 @@ export default function App() {
               </div>
             </div>
             <div className="contact-item">
-              <div className="contact-icon"><Github size={17} /></div>
+              <div className="contact-icon"><GithubIcon size={17} /></div>
               <div>
                 <div className="contact-label">GitHub</div>
                 <a className="contact-val" href={profile.github} target="_blank" rel="noreferrer"
@@ -244,7 +244,7 @@ export default function App() {
             <Mail size={15} /> {profile.email}
           </a>
           <a className="btn-outline" href={profile.github} target="_blank" rel="noreferrer">
-            <Github size={15} /> View GitHub
+            <GithubIcon size={15} /> View GitHub
           </a>
         </div>
       </section>
@@ -253,7 +253,7 @@ export default function App() {
       <footer>
         <span className="footer-copy">© 2026 Madhu Suthanan M · Built with React + Vite</span>
         <div className="footer-links">
-          <a href={profile.github} target="_blank" rel="noreferrer" aria-label="GitHub"><Github size={18} /></a>
+          <a href={profile.github} target="_blank" rel="noreferrer" aria-label="GitHub"><GithubIcon size={18} /></a>
           <a href={`mailto:${profile.email}`} aria-label="Email"><Mail size={18} /></a>
         </div>
       </footer>
